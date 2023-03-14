@@ -5,10 +5,9 @@
 #SBATCH --time=0-48:00:00
 #SBATCH --partition=cpu
 #SBATCH --ntasks=1
-#SBATCH --output=log/core_analysis/preprocessing_phase_two/secondary_concrete_feature_selection/secondary_concrete_vae_hyperbanding/secondary_concrete_vae_hyperbanding-%j.output
-#SBATCH --error=log/core_analysis/preprocessing_phase_two/secondary_concrete_feature_selection/secondary_concrete_vae_hyperbanding/secondary_concrete_vae_hyperbanding-%j.error
+#SBATCH --output=log/core_analysis/preprocessing_phase_two/primary_concrete_feature_selection/primary_concrete_vae_hyperbanding/primary_concrete_vae_hyperbanding-%j.output
+#SBATCH --error=log/core_analysis/preprocessing_phase_two/primary_concrete_feature_selection/primary_concrete_vae_hyperbanding/primary_concrete_vae_hyperbanding-%j.error
 
-wd=$modelling/core_analysis/preprocessing_phase_two/seconary_concrete_feature_selection/secondary_concrete_vae_hyperbanding/
 
 
 source ~/.bashrc

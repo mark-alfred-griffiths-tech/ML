@@ -1,4 +1,5 @@
-import kerastuner as kt
+#!/usr/bin/env python
+# coding: utf-8
 from kerastuner import HyperModel
 from tensorflow.keras.optimizers import SGD
 from tensorflow.python.ops.init_ops import glorot_uniform_initializer
