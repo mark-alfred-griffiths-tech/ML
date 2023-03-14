@@ -1,4 +1,5 @@
-import kerastuner as kt
+#!/usr/bin/env python
+# coding: utf-8
 from kerastuner import HyperModel
 from concrete_autoencoder import *
 
